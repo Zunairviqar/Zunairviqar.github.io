@@ -1,0 +1,128 @@
+html{
+  scroll-behavior: smooth;
+
+  text-align: center;
+  /* background: linear-gradient(#c06263, #d18280); */
+  background-color: #DEEFF9;
+}
+<script src = "script.js">  </script>
+
+img {
+  height:200px;
+}
+a{
+  display: block;
+  padding: 10px;
+  border: 8px solid black;
+
+
+}
+a:link, a:visited {
+  background-color: #F5FAFE;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 22px;;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a:hover, a:active {
+   background-color: #E6D1E1;
+   opacity: 0.5;
+   top: 5;
+   transition: 0.5s;
+}
+
+.links a{
+  position: relative;
+  left: 30%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  border-radius: 10px;
+}
+
+.layerbackground{
+  position: absolute;
+  margin-left: 0px;
+  margin:0px;
+  padding:0px;
+  top: 0px;
+  left:0px;
+  width:100%;
+  height:100px;
+  color:#F5FAFE;
+  background: #F5FAFE;
+}
+
+.Header{
+  position: absolute;
+  font-family: 'Indie Flower', cursive;  font-weight: normal;
+  font-size: 43px;
+  margin-top: 13px;
+  margin-left: 25px;
+  text-shadow: 0px 0px 5px black;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.videoheading{
+  color:red;
+  font-family: sans-serif;
+}
+
+@keyframes my-move
+{
+ 0% {opacity: 0;}
+ 20%{opacity: 0;}
+ 100% {opacity: 1;}
+}
+
+.heading1{
+  color:#75A1BE;
+  animation-name: my-move;
+  animation-duration: 3s;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
+
+  font-size:30px;"
+}
+
+@keyframes my-move2
+{
+ 0% {opacity: 0;}
+ 50%{opacity: 0;}
+ 100% {opacity: 1;}
+}
+
+.video1{
+  animation-name: my-move2;
+  animation-duration: 7s;
+}
+
+.heading{
+  color:#75A1BE;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: lighter;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+
+}
+.column img{
+    border: 8px solid black;
+    height:200px;
+}
