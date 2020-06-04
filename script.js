@@ -4,19 +4,19 @@ let HeadingColorChange = () => {
 }
 let HeadingColorReChange = () => {
   myfirstheading.position = "absolute";
-  myfirstheading.style.fontSize = "30";
+  myfirstheading.style.fontSize = "45";
 }
 
 let FontChange = () => {
   myfirstheading.position = "absolute";
-  myfirstheading.style.color = "black";
+  myfirstheading.style.color = "#75A1BE";
   myfirstheading.style.fontSize = "40";
 }
 
 let FontReChange = () => {
   myfirstheading.position = "absolute";
-  myfirstheading.style.color = "#75A1BE";
-  myfirstheading.style.fontSize = "30";
+  myfirstheading.style.color = "white";
+  myfirstheading.style.fontSize = "45";
 }
 
 let myfirstheading = document.getElementById('Heading-1');
