@@ -16,7 +16,7 @@ a:link, a:visited {
   /* background-color: #F5FAFE; */
     border: none;
     color: white;
-    margin-top: 10px;
+    margin-top: 17px;
     margin-bottom: 50px;
     padding: 15px 30px;
     text-align: center;
@@ -82,7 +82,6 @@ a:hover, a:active {
 
 @font-face {
   font-family: myFirstFont;
-
   src: url(Berton-Roman-Regular.ttf.woff);
   font-weight: 300;
 }
@@ -90,7 +89,7 @@ a:hover, a:active {
 .heading1{
   color:white;
   text-align: left;
-    margin-left: 25px;
+  margin-left: 25px;
   animation-name: my-move;
   animation-duration: 3s;
   font-family: myFirstFont;
@@ -99,6 +98,10 @@ a:hover, a:active {
 
   font-size:45px;"
 }
+
+/* .heading1 p{
+  font-size: 10px;
+} */
 
 @keyframes my-move2
 {
@@ -113,9 +116,11 @@ a:hover, a:active {
 }
 
 .heading{
-  color:#75A1BE;
-
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color:white;
+  font-family: myFirstFont;
+  text-align: left;
+  margin-left: 25px;
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-weight: lighter;
 }
 
