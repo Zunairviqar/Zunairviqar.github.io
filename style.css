@@ -3,24 +3,19 @@ html{
 
   text-align: center;
   /* background: linear-gradient(#c06263, #d18280); */
-  background-color: #DEEFF9;
+  /* background-color: #DEEFF9; */
+  background-image: url('images/chalk-background.jpg');
 }
 <script src = "script.js">  </script>
 
 img {
   height:200px;
 }
-a{
-  display: block;
-  padding: 10px;
-  border: 8px solid black;
 
-
-}
 a:link, a:visited {
-  background-color: #F5FAFE;
+  /* background-color: #F5FAFE; */
     border: none;
-    color: black;
+    color: white;
     margin-top: 10px;
     margin-bottom: 50px;
     padding: 15px 32px;
@@ -28,7 +23,7 @@ a:link, a:visited {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
-    font-size: 22px;;
+    font-size: 15px;;
     cursor: pointer;
     display: inline-block;
 }
@@ -62,6 +57,7 @@ a:hover, a:active {
 
 .Header{
   position: absolute;
+  color: white;
   font-family: 'Indie Flower', cursive;  font-weight: normal;
   font-size: 43px;
   margin-top: 13px;
@@ -84,11 +80,19 @@ a:hover, a:active {
  100% {opacity: 1;}
 }
 
+@font-face {
+  font-family: myFirstFont;
+
+  src: url(Berton-Roman-Regular.ttf.woff);
+  font-weight: 300;
+}
+
 .heading1{
   color:#75A1BE;
   animation-name: my-move;
   animation-duration: 3s;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: myFirstFont;
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-weight: lighter;
 
   font-size:30px;"
