@@ -45,3 +45,19 @@ let SubHeadingColorReChange = () => {
 let subheading = document.getElementById('Heading-2');
 subheading.addEventListener('mouseenter',SubHeadingColorChange)
 subheading.addEventListener('mouseleave', SubHeadingColorReChange)
+
+// let Underline = ()=>{
+//   Home.setAttribute("style", "text-decoration: underline");
+//   let x = 1;
+// }
+//
+// let Home = document.getElementById('Home');
+// Home.addEventListener('click', Underline)
+//
+// let UnderlineTeam = ()=>{
+//   Team.setAttribute("style", "text-decoration: underline");
+//   let x = 1;
+// }
+//
+// let Team = document.getElementById('Team');
+// Team.addEventListener('click', UnderlineTeam)
