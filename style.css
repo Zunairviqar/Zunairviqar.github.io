@@ -5,7 +5,7 @@ html{
   /* background-color: #DEEFF9; */
   background: url('images/chalk-background.jpg') no-repeat center fixed;
   background-size: cover;
-  /* background-image: url('images/chalk-background.jpg') no-repeat center fixed;     
+  /* background-image: url('images/chalk-background.jpg') no-repeat center fixed;
   background-size: cover; */
   /* background-size: cover;
  background-repeat: no-repeat;  */
@@ -27,7 +27,8 @@ a:link, a:visited {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
-    font-size: 15px;;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     display: inline-block;
 }
@@ -66,6 +67,8 @@ a:hover, a:active {
   color: white;
   font-family: 'Indie Flower', cursive;  font-weight: normal;
   font-size: 43px;
+  font-weight: bold;
+  font-stretch: expanded;
   margin-top: 13px;
   margin-left: 25px;
   text-shadow: 0px 0px 5px black;
@@ -97,7 +100,7 @@ a:hover, a:active {
   /* text-align: left; */
   /* margin-left: 25px; */
   animation-name: my-move;
-  animation-duration: 3s;
+  animation-duration: 2s;
   font-family: myFirstFont;
   /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-weight: lighter;
@@ -112,13 +115,13 @@ a:hover, a:active {
 @keyframes my-move2
 {
  0% {opacity: 0;}
- 50%{opacity: 0;}
+ 30%{opacity: 0;}
  100% {opacity: 1;}
 }
 
 .video1{
   animation-name: my-move2;
-  animation-duration: 7s;
+  animation-duration: 4s;
 }
 
 .heading{
