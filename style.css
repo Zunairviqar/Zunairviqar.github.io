@@ -88,8 +88,8 @@ a:hover, a:active {
 
 .heading1{
   color:white;
-  text-align: left;
-  margin-left: 25px;
+  /* text-align: left; */
+  /* margin-left: 25px; */
   animation-name: my-move;
   animation-duration: 3s;
   font-family: myFirstFont;
@@ -118,8 +118,8 @@ a:hover, a:active {
 .heading{
   color:white;
   font-family: myFirstFont;
-  text-align: left;
-  margin-left: 25px;
+  /* text-align: left; */
+  /* margin-left: 25px; */
   /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-weight: lighter;
 }
