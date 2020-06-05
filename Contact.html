@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
   </head>
   <body>
-
     <!-- <div class = "layerbackground">  xyz </div> -->
     <div class = "Header">  A Productive Quarantine </div>
 
@@ -20,9 +19,28 @@
       </div>
 
       <h2 style="font-size:30px;"class = "heading" > Feedback </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
 
+      <div class="container">
+        <form method = "post" action="submit.php">
+
+          <label for="fname">First Name</label>
+          <input style="font-family: myFirstFont"type="text" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input style="font-family: myFirstFont"type="text" name="lastname" placeholder="Your last name..">
+
+          <label for="country">Country</label>
+          <input style="font-family: myFirstFont"type="text" name="cname" placeholder="Country..">
+
+          <label for="email">Email</label>
+          <input style="font-family: myFirstFont"type="text" name="emaill" placeholder="Email">
+
+          <label for="subject">Thoughts?</label>
+          <textarea style="font-family: myFirstFont"name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+          <input style="font-family: myFirstFont"name = "submit" type="submit" value="Submit">
+
+        </form>
+      </div>
   </body>
 </html>
