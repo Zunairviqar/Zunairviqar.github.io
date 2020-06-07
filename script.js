@@ -26,16 +26,22 @@ let SubHeadingColorReChange = () => {
   y.innerText = "";
 }
 
+
 if(window.location.pathname == "/index.html"){
 document.getElementById("Home").style.textDecoration = "underline";
+var x;
+x = 1;
+}
 
 let myfirstheading = document.getElementById('Heading-1');
-myfirstheading.addEventListener('mouseenter',FontChange)
-myfirstheading.addEventListener('mouseleave', FontReChange)
-
 let subheading = document.getElementById('Heading-2');
-subheading.addEventListener('mouseenter',SubHeadingColorChange)
-subheading.addEventListener('mouseleave', SubHeadingColorReChange)
+
+if (x == 1){
+  myfirstheading.addEventListener('mouseenter',FontChange)
+  myfirstheading.addEventListener('mouseleave', FontReChange)
+
+  subheading.addEventListener('mouseenter',SubHeadingColorChange)
+  subheading.addEventListener('mouseleave', SubHeadingColorReChange)
 }
 
 if(window.location.pathname == "/Team.html"){
@@ -54,12 +60,19 @@ if(window.location.pathname == "/Contact.html"){
 document.getElementById("Contact").style.textDecoration = "underline";
 }
 
-if(window.location.pathname == "/index.html"){
-document.getElementById("Home").style.textDecoration = "underline";
-}
 
 if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/index.html"){
 document.getElementById("Home").style.textDecoration = "underline";
+var x;
+x = 1;
+}
+
+if (x == 1){
+  myfirstheading.addEventListener('mouseenter',FontChange)
+  myfirstheading.addEventListener('mouseleave', FontReChange)
+
+  subheading.addEventListener('mouseenter',SubHeadingColorChange)
+  subheading.addEventListener('mouseleave', SubHeadingColorReChange)
 }
 
 if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/Team.html"){

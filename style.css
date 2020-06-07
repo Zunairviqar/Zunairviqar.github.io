@@ -1,20 +1,16 @@
+
+
 html{
   scroll-behavior: smooth;
   text-align: center;
-  /* background: linear-gradient(#c06263, #d18280); */
-  /* background-color: #DEEFF9; */
   background: url('images/chalk-background.jpg') no-repeat center fixed;
   background-size: cover;
-  /* background-image: url('images/chalk-background.jpg') no-repeat center fixed;
-  background-size: cover; */
-  /* background-size: cover;
- background-repeat: no-repeat;  */
 }
 
 img {
   height:200px;
 }
-
+/* Code below is done with help from bitdegree.org, suggested by Katie (link is here: https://www.bitdegree.org/learn/css-link-color) */
 a:link, a:visited {
   /* background-color: #F5FAFE; */
     border: none;
@@ -23,6 +19,7 @@ a:link, a:visited {
     margin-bottom: 50px;
     padding: 15px 20px;
     text-align: center;
+    /* Used for creating a transition for the index page text */
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
@@ -34,16 +31,15 @@ a:link, a:visited {
 
 a:hover, a:active {
    background-color: #E6D1E1;
+   /* Reduced the opactity of the text when the link is hovered upon */
    opacity: 0.7;
    top: 5;
+   /* Takes 0.5 seconds to reduce the opacity as a transiton */
    transition: 0.5s;
-   /* text-decoration: underline; */
 }
+/* Code below is done with help from bitdegree.org, suggested by Katie (link is here: https://www.bitdegree.org/learn/css-link-color) */
 
-.Active-Link span{
-  border-bottom: 1px solid black;
-}
-
+/* Code below alligns the menu to the right side of the screen */
 .links a{
   position: relative;
   left: 30%;
@@ -52,94 +48,64 @@ a:hover, a:active {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   border-radius: 5px;
 }
-
-.rightside{
-  float: right;
-}
-.layerbackground{
-  position: absolute;
-  margin-left: 0px;
-  margin:0px;
-  padding:0px;
-  top: 0px;
-  left:0px;
-  width:100%;
-  height:100px;
-  color:#F5FAFE;
-  background: #F5FAFE;
-}
-
+/* Code belowmis used for the formatting of the heading of the page, to be used like an icon */
 .Header{
+  /* To fix the position of the header */
   position: absolute;
   color: white;
   font-family: 'Indie Flower', cursive;  font-weight: normal;
   font-size: 43px;
   font-weight: bold;
-  font-stretch: expanded;
+  /* To format the heading to be in line with the menu */
   margin-top: 13px;
   margin-left: 25px;
   text-shadow: 0px 0px 5px black;
+  /* To produce an initial transition when the screen reloads */
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  text-decoration: none;
 }
-
-.videoheading{
-  color:red;
-  font-family: sans-serif;
-}
-
+/* Transitions/ Animations for the Heading 'What are you doing with your time....' in the index page */
 @keyframes my-move
 {
  0% {opacity: 0;}
  20%{opacity: 0;}
  100% {opacity: 1;}
 }
-
+/* To include a downloaded font from the internet in the website */
 @font-face {
   font-family: myFirstFont;
   src: url(Berton-Roman-Regular.ttf.woff);
   font-weight: 300;
 }
-
+/* Code to format the heading 'What are you doing with your time....' on the index page */
 .heading1{
   color:white;
-  /* text-align: left; */
-  /* margin-left: 25px; */
   animation-name: my-move;
   animation-duration: 2s;
   font-family: myFirstFont;
-  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-weight: lighter;
-
   font-size:45px;"
 }
-
-/* .heading1 p{
-  font-size: 10px;
-} */
-
+/* Transitions/ Animations for the video on the index page */
 @keyframes my-move2
 {
  0% {opacity: 0;}
  30%{opacity: 0;}
  100% {opacity: 1;}
 }
-
 .video1{
   animation-name: my-move2;
   animation-duration: 4s;
 }
 
+/* To format all the similar subheadings on the different pages */
 .heading{
   color:white;
   font-family: myFirstFont;
-  /* text-align: left; */
-  /* margin-left: 25px; */
-  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-weight: lighter;
 }
 
+/* Below code is to format the Images and the text along with the images on the Team page. Code is inspired from w3schools, not specifically from any link */
 .row {
   display: flex;
 }
@@ -150,10 +116,11 @@ a:hover, a:active {
   margin-bottom: 30px;
 
 }
+
 .column img{
     border: 4px solid black;
-    height:200px;
-    width: 180px;
+    /* height:200px; */
+    /* width: 180px; */
     border-radius: 60px;
     margin-top: 3.75%;
 }
@@ -172,6 +139,9 @@ a:hover, a:active {
   border-radius: 4px;
   background-color: grey;
 }
+
+/* Above code is to format the Images and the text along with the images on the Team page. Code is inspired from w3schools, not specifically from any link */
+
 
 /* https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
@@ -218,7 +188,7 @@ input[type=submit]:hover {
   background-color: grey;
   padding: 20px;
 }
-
+/* To format the text below the Description on the index page */
 .body-text{
   color:white;
   font-family: myFirstFont;
@@ -229,7 +199,7 @@ input[type=submit]:hover {
   font-size:20px;
   opacity: 0.8;
 }
-
+/* To format the text beneath the subheadings on the About and the Resources page */
 .About-data{
   margin-left: 25%;
   margin-right: 25%;
@@ -238,6 +208,8 @@ input[type=submit]:hover {
   border-radius: 4px;
   background-color: grey;
 }
+
+/* Code to format the footer at the end of the page */
 .footer-content{
   padding-top: 25px;
   padding-bottom: 0;
@@ -251,4 +223,22 @@ input[type=submit]:hover {
   color: white;
   top:2%;
   width:102%;
+}
+ /* Below code is Inspired from w3schools.com (link here: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid) to format the videos on the Resources page */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  /* padding: 10px; */
+  padding-top: 40px;
+}
+/* Above code is Inspired from w3schools.com (link here: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid) */
+.Guide-text{
+  font-family: myFirstFont;
+  font-weight: lighter;
+  color: white;
+  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
