@@ -1,20 +1,12 @@
 # Zunairviqar.github.io
-Project Name: A Productive Quarantine
+Project Name:
+A Productive Quarantine
 
-Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
+Project Description: 
+The project, an assignment of the class Communications Lab, is a website that hosts a video from the 30 Minute Film Festival where we had to use the skills of HTML, CSS and Javascript that we learned in class. The video depicts the concept of friends coming together during the quarantine and lockdown of COVID-19. Since social distancing is encouraged and everyone is practicing self-isolation whether the country is in a lockdown or not, this crucial time can be used very productively if we look at the bright side. Through portraying a random example of a remote workout, we mean to depict how we can use this time to come together through online communication channels. The overall concept is how we utilise this time with our hobbies but it can not only be limited to that and there is way more to explore. We can use this time to learn the skills we have wanted to do and make most out of it. In order to portray this concept ideally, I wanted a website that gave off a professional look but not too formal that does not keep a user engaged. The goal was to ensure that anyone who accesses the website is very curious to explore through it and eventually lands on something that helps them make their self-isolation period better.
 
-Process: How did you go about implementing the concept.
+Process:
+The first step was to learn through various sources the basic concepts of HTML, CSS and Javascript and it was a struggle to get hands on it. I used various sources, mainly w3schools.com, to understand the implementation of very simple stuff like from the background to the footer. I tried out various color schemes and backgrounds and then ended up with a background that seemed close to what a blackboard looks like. Such a background with a chalk-type font, in my opinion, does attract some user attention which was the ideal thing for me. Then gradually I used interactivity methods with Javascript like the 'mouse enter' at the index/Home page where a hidden text shows up. This was particularly done to get the user engaged and curious to explore similar hidden things on the website. I also added a Team page with a direction towards the hobby of the film makers to give the user a sense of belonging that we acknowledge how all of us love to do different things. The implementation of the Resources tab was also to provide a user with many other resources to help achieve the main goal of the user landing up on something useful to during quarantine, like most South Asians would click on the biryani video and maybe end up learning how to cook it, and possibly in turn end up actually cooking it
 
-Reflection/Evaluation: This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.
-
-
-
-Communication Lab First Assignment
-PROMPT
-Create a web page to house and debut your 30MFF. Think about how you want to "brand" the film. What is the story? The title? The tag line? The font? The colors? Reviews? Bios for the actors? Behind the scenes photos? Your final site with embedded video should be uploaded and live on your GitHub pages. It should include a .html file, a .css file, and a .js file. You should incorporate at least one element of "interactivity" on the page.
-
-Examples of interactivity include but are not limited to the following:
-a "photo carousel" where images change upon clicking
-a DOM change based on mouse position/scroll
-a slider to control the look of the page
-
+Reflection/Evaluation: 
+The expecatations were definitely met by overcoming a bunch of challenges. Having some background in computer languages, the challenge was to adapt to a new syntax and explore the various functionalities of HTML, CSS and Javascript which becomes a little difficult to do as a beginner in web development. Also, since I am not a very creative person as of yet and it takes me time to think of things like concepts, designs and graphics, it was the biggest challenge to come up with a story for a website. The implementation part was the most intriguing as it allowed me to learn something new with every new functionality that I implemented and I had to watch multiple videos and access multiple websites and at the end of the project I was confident in my knowledge of everything I had learned so far.
