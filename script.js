@@ -58,6 +58,10 @@ if(window.location.pathname == "/index.html"){
 document.getElementById("Home").style.textDecoration = "underline";
 }
 
+if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/index.html"){
+document.getElementById("Home").style.textDecoration = "underline";
+}
+
 if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/Team.html"){
 document.getElementById("Team").style.textDecoration = "underline";
 }
