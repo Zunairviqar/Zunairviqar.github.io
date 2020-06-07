@@ -1,18 +1,9 @@
-
-let HeadingColorChange = () => {
-  myfirstheading.style.color = "black";
-}
-let HeadingColorReChange = () => {
-  myfirstheading.position = "absolute";
-  myfirstheading.style.fontSize = "45";
-}
-
 let FontChange = () => {
   myfirstheading.position = "absolute";
   myfirstheading.style.color = "grey";
   myfirstheading.style.fontSize = "51";
   let x = document.getElementById('Ghost-text');
-  x.innerText = "Did you miss your friends? Or did you learn something?";
+  x.innerText = "Do you miss your friends? Or are you learning something new?";
 
 }
 
@@ -23,13 +14,6 @@ let FontReChange = () => {
   document.getElementById('Ghost-text').innerText = "";
 
 }
-
-let myfirstheading = document.getElementById('Heading-1');
-// myfirstheading.addEventListener('mouseenter',HeadingColorChange)
-// myfirstheading.addEventListener('mouseenter',HeadingColorReChange)
-myfirstheading.addEventListener('mouseenter',FontChange)
-myfirstheading.addEventListener('mouseleave', FontReChange)
-
 
 let SubHeadingColorChange = () => {
   subheading.style.color = "grey";
@@ -42,9 +26,38 @@ let SubHeadingColorReChange = () => {
   y.innerText = "";
 }
 
+if(window.location.pathname == "/index.html"){
+document.getElementById("Home").style.textDecoration = "underline";
+
+let myfirstheading = document.getElementById('Heading-1');
+myfirstheading.addEventListener('mouseenter',FontChange)
+myfirstheading.addEventListener('mouseleave', FontReChange)
+
 let subheading = document.getElementById('Heading-2');
 subheading.addEventListener('mouseenter',SubHeadingColorChange)
 subheading.addEventListener('mouseleave', SubHeadingColorReChange)
+
+}
+
+if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/index.html"){
+document.getElementById("Home").style.textDecoration = "underline";
+}
+
+if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/Team.html"){
+document.getElementById("Team").style.textDecoration = "underline";
+}
+
+if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/About.html"){
+document.getElementById("About").style.textDecoration = "underline";
+}
+
+if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/Resources.html"){
+document.getElementById("Resources").style.textDecoration = "underline";
+}
+
+if(window.location.pathname == "/Users/zunairviqar/Documents/GitHub/Zunairviqar.github.io/Contact.html"){
+document.getElementById("Contact").style.textDecoration = "underline";
+}
 
 // let Underline = ()=>{
 //   Home.setAttribute("style", "text-decoration: underline");
