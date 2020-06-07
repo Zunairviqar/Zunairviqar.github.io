@@ -160,6 +160,7 @@ a:hover, a:active {
 
 .column p{
   position: relative;
+  top: 25%;
   right: 30%;
   color:white;
   font-family: myFirstFont;
@@ -167,7 +168,7 @@ a:hover, a:active {
   font-size:20px;
   opacity: 0.8;
   border: 1px solid #ccc;
-  padding: 12px;
+  padding: 15px;
   border-radius: 4px;
   background-color: grey;
 }
