@@ -198,6 +198,7 @@ input[type=submit]:hover {
   /* text-align: justify; */
   font-size:20px;
   opacity: 0.8;
+  border-radius: 5px;
 }
 /* To format the text beneath the subheadings on the About and the Resources page */
 .About-data{
@@ -221,7 +222,7 @@ input[type=submit]:hover {
   position: relative;
   right:1%;
   color: white;
-  top:2%;
+  top:10%;
   width:102%;
 }
  /* Below code is Inspired from w3schools.com (link here: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid) to format the videos on the Resources page */
@@ -234,6 +235,8 @@ input[type=submit]:hover {
   padding-top: 40px;
 }
 /* Above code is Inspired from w3schools.com (link here: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid) */
+
+/* To format the Linked line for the forty things guide on the Resources page */
 .Guide-text{
   font-family: myFirstFont;
   font-weight: lighter;
@@ -241,4 +244,8 @@ input[type=submit]:hover {
   font-size: 20px;
   padding-left: 15%;
   padding-right: 15%;
+}
+/* To format the first HERE! button on the Resources Page */
+.Guide-text a{
+  border-radius: 5px;
 }
